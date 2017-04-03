@@ -64,6 +64,6 @@
 
         setInterval(function() {
             getData(draw);
-        }, test ? 100 : 1500);
+        }, test ? 1000 : 10000);
     });
 })();
